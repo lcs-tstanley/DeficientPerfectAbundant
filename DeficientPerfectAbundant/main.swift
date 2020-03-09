@@ -8,5 +8,18 @@
 
 import Foundation
 
-print("Hello, World!")
+//Declaring x and y values
+var x = 6
 
+var y = 1...32500
+var product = 0
+
+for number in y {
+x / number += product
+    
+}
+
+
+
+
+print()
