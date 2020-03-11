@@ -9,17 +9,30 @@
 import Foundation
 
 //Declaring x and y values
-var x = 6
+let x = 6
+var product = -x
 
-var y = 1...32500
-var product = 0
+for number in 1...x {
+    let remainder = x % number
 
-for number in y {
-x / number += product
+    product += x - remainder
+    
+    //product += (x / number)
     
 }
 
 
+if product > x {
+    print("it is abundant")
+}
 
+if product < x {
+    print("it is defficicnet")
+}
 
-print()
+if product == x {
+    print("it is perfect")
+}
+
+print(product)
+
